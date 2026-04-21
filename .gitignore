@@ -1,0 +1,48 @@
+# Claude Code
+.claude/
+
+# Segredo de licenciamento — NUNCA commitar
+secret.key
+
+# Chaves geradas e licença ativada localmente
+chaves_*.txt
+.license
+
+# Banco de dados local (contém XMLs de NF-e e dados fiscais)
+provecta.db
+*.db
+*.sqlite
+*.sqlite3
+
+# Certificados digitais
+*.pfx
+*.p12
+*.cer
+*.pem
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Ambientes virtuais
+venv/
+.venv/
+env/
+.env
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
